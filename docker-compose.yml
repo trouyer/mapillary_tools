@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mapillary-tools: 
+    build: .
+    container_name: mapillary-tools
+    volumes:
+      - ~/mapillary/photos:/data/photos
+      - ~/mapillary/videos:/data/videos
