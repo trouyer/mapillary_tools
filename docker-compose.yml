@@ -4,5 +4,7 @@ services:
     build: .
     container_name: mapillary-tools
     volumes:
-      - ~/mapillary/photos:/data/photos
-      - ~/mapillary/videos:/data/videos
+      - ~/mapillary/photos:/photos
+      - ~/mapillary/videos:/videos
+      - ~/mapillary/gpx:/gpx
+      - ~/mapillary/config/credentials:/root/.config/mapillary/configs/MkJKbDA0bnZuZlcxeTJHTmFqN3g1dzo1YTM0NjRkM2EyZGU5MzBh
